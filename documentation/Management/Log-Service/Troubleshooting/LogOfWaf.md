@@ -6,7 +6,7 @@
 - 已创建了日志集和日志主题
 
 ## 配置流程
-1.	进入日志集管理页面，选择已创建的日志集，点击“查看”按钮，进入日志详情页面，选择采集配置“未配置”状态日志主题。  
+1.	进入日志集管理页面，选择已创建的日志集，点击“查看”按钮，进入日志详情页面，选择采集配置“未配置”状态的日志主题。  
 ![日志集详情](https://raw.githubusercontent.com/luolei-laurel/cn-1/patch-1/image/LogService/rzjxq-3.png)
 2.  点击操作列下的 "管理"->"采集配置"，进入采集配置页面。  
 ![采集配置页](https://raw.githubusercontent.com/luolei-laurel/cn-1/patch-1/image/LogService/cjpz-1.png)
