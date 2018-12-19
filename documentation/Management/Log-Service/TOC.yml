@@ -30,15 +30,9 @@ items:
 - name: 操作指南
   items:
     - name: 日志采集
-      href: Operation-Guide/Log-collection.md
-    - name: 日志检索
       items:
-        - name: 日志检索语法
-          href: Operation-Guide/LogSearch/LS-grammar.md
-        - name: 全文检索
-          href: Operation-Guide/LogSearch/fullTextSearch.md
-        - name: 键值检索
-          href: Operation-Guide/LogSearch/KVSearch.md
+        - name: 云产品日志采集
+          href: Operation-Guide/LogCollection/CloudResource.md
     - name: 日志管理
       items:
         - name: 日志集管理
@@ -47,6 +41,14 @@ items:
           href: Operation-Guide/LogSet/LogTopicManagement.md
         - name: 日志配置管理
           href: Operation-Guide/LogSet/collectionConfigManagement.md
+    - name: 日志检索
+      items:
+        - name: 日志检索语法
+          href: Operation-Guide/LogSearch/LS-grammar.md
+        - name: 全文检索
+          href: Operation-Guide/LogSearch/fullTextSearch.md
+        - name: 键值检索
+          href: Operation-Guide/LogSearch/KVSearch.md
 - name: 最佳实践
   items:
     - name: 应用安全网关日志
