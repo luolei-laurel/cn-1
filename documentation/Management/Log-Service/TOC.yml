@@ -32,18 +32,34 @@ items:
     - name: 日志采集
       href: Operation-Guide/Log-collection.md
     - name: 日志检索
-      href: Operation-Guide/Log Retrieval.md
-    - name: 管理
-      href: Operation-Guide/Log-Management .md  
+      items:
+        - name: 日志检索语法
+          href: Operation-Guide/LogSearch/LS-grammar.md
+        - name: 全文检索
+          href: Operation-Guide/LogSearch/fullTextSearch.md
+        - name: 键值检索
+          href: Operation-Guide/LogSearch/KVSearch.md
+    - name: 日志管理
+      items:
+        - name: 日志集管理
+          href: Operation-Guide/LogSet/LogSetManagement.md
+        - name: 日志主题管理
+          href: Operation-Guide/LogSet/LogTopicManagement.md
+        - name: 日志配置管理
+          href: Operation-Guide/LogSet/collectionConfigManagement.md
 - name: 最佳实践
- items:
+  items:
     - name: 应用安全网关日志
       href: Best-Practices/Practice-waf.md
 - name: 常见问题
- items:
-   href: FAQ/FAQ.md
-- name: API参考
- items:
-    - name: API使用说明
-      href: API-Reference/Overview.md
+  href: FAQ/FAQ.md
+- name: 文档历史记录
+  href: Related-Resources/Document-History.md  
+- name: 服务条款         
+  status: 0      
+- name: SLA         
+  status: 0       
+- name: 备案         
+  status: 0        
+- name: 词汇表          
   status: 0
